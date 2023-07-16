@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply w-[90%] mx-auto;
+    /* margin-top: 100px; */
+}
+
+.btn{
+    @apply bg-primary py-[16px] px-[40px] text-[#FFFFFF] rounded-[10px] shadow hover:bg-secondary transition-all font-bold;
+}
+
+.btn-secondary{
+    @apply bg-secondary py-[16px] px-[40px] text-[#FFFFFF] rounded-[10px] shadow hover:bg-primary transition-all font-bold;
+}
+
+.btn-outline{
+    @apply py-3 px-6 md:py-4  md:px-10 text-secondary font-bold bg-gray-100  rounded-lg text-lg md:text-xl hover:text-primary transition-all;
+}
+
+.shadow{
+    box-shadow: 0px 8px 42px -4px rgba(139, 136, 237, 0.12), 0px 8px 18px -6px rgba(139, 136, 237, 0.20);
+}
+/* 
+.react-multiple-carousel__arrow::before{
+    color: #7d7373;
+    background: #eee;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+} */
